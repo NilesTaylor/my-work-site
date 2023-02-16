@@ -24,15 +24,15 @@
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ITD - Hardmilling</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                <li class="nav-item dropdown">
 
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Cutting Tools
-                  </a>
+                  <!-- HOME -->
+                <li class="nav-item" style="padding-right: 5px;"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
 
+                  <!-- CUTTING TOOLS -->
+                <li class="nav-item dropdown" style="padding-right: 10px;"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cutting Tools</a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="http://atomprecision.com/products.html" target="_blank">Atom Drills</a></li>
                     <li><a class="dropdown-item" href="#">Union</a></li>
@@ -42,53 +42,82 @@
                     <li ><a href="http://www.moldino.com/en-US/products/endmill/#1" target="_blank" style="padding-left: 5px; color: red; text-decoration: none;"> Moldino</a></li>
                     <li><a class="dropdown-item" href="http://www.moldino.com/en-US/products/endmill/epdbe/" target="_blank">EPDBE</a></li>
                     <li><a class="dropdown-item" href="http://www.moldino.com/en-US/products/endmill/epdbeh-th3/" target="_blank">EPDBEH-TH3</a></li>
+                    <li><a class="dropdown-item" href="http://www.moldino.com/en-US/products/cbn/cbn-epsb-f-s/" target="_blank">CBN-EPSB-F/S</a></li>
                     <li><a class="dropdown-item" href="http://www.moldino.com/en-US/products/endmill/epdre/" target="_blank">EPDRE</a></li>
                     <li><a class="dropdown-item" href="http://www.moldino.com/en-US/products/endmill/epdreh-th3/" target="_blank">EPDREH-TH3</a></li>
                     <li><a class="dropdown-item" href="http://www.moldino.com/en-US/products/endmill/epdse/" target="_blank">EPDSE</a></li>
-                  </ul>                
+                  </ul>
                 </li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Cutting Conditions
-                  </a>
-
+                  <!-- BALL EM CONDITIONS -->
+                <li class="nav-item dropdown" style="padding-right: 10px;"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ball EM Conditions</a>
                   <ul class="dropdown-menu">
-                    <li ><a href="#" style="padding-left: 5px; color: red; text-decoration: none;"> EPDBE ATH PN</a></li>
-                    <li><a class="dropdown-item" href="data sheets/epdbe high accuracy.pdf" target="_blank">High Accuracy</a></li>
-                    <li><a class="dropdown-item" href="data sheets/epdbe high efficiency.pdf" target="_blank">High Efficiency</a></li>
+                    <li style="padding-left: 5px; color: red; text-decoration: none;">EPDBE ATH PN</li>
+                    <li><a class="dropdown-item" href="data sheets/epdbe high accuracy.pdf" target="_blank">High Accuracy (mm)</a></li>
+                    <li><a class="dropdown-item" href="data sheets/epdbe high efficiency.pdf" target="_blank">High Efficiency (mm)</a></li>
                       <hr class="dropdown-divider">
-                    <li ><a href="#" target="_blank" style="padding-left: 5px; color: red; text-decoration: none;"> EPDSE ATH PN</a></li>
-                    <li><a class="dropdown-item" href="data sheets/epdse high accuracy.pdf" target="_blank">High Accuracy</a></li>
-                    <li><a class="dropdown-item" href="data sheets/epdse high efficiency.pdf" target="_blank">High Efficiency</a></li>
+                    <li style="padding-left: 5px; color: red; text-decoration: none;">EPDBEH-TH3</li>
+                    <li><a class="dropdown-item" href="data sheets/epdbeh-th3 high accuracy inch.pdf" target="_blank">High Accuracy (in)</a></li>
+                    <li><a class="dropdown-item" href="data sheets/epdbeh-th3 high efficiency inch.pdf" target="_blank">High Efficiency (in)</a></li>
                      <hr class="dropdown-divider">
-                    <li><a class="dropdown-item" href="http://www.moldino.com/en-US/products/catalog/pdf/epdbeh-th3-us-2.pdf" target="_blank">EPDBEH-TH3</a></li>
+                    <li><a href="data sheets/cbn-ehb finishing.pdf" target="_blank" style="padding-left: 5px; color: red; text-decoration: none; line-height: 2rem;">CBN-EHB (mm)</a></li>
+                    <li><a href="http://www.moldino.com/en-US/products/catalog/pdf/use_08_CBN-EPSB-FS-2.pdf" target="_blank" style="padding-left: 5px; color: red; text-decoration: none; line-height: 2rem;">CBN-EPSB-F/S (mm)</a></li>
+                     <hr class="dropdown-divider">
+                    <li><a class="dropdown-item" href="#" target="_blank">Item</a></li>
+                    <li><a class="dropdown-item" href="#" target="_blank">Item</a></li>
+                    <li><a class="dropdown-item" href="#" target="_blank">Item</a></li>
+                  </ul>
+
+                 <!-- RAD/SQ EM CONDITIONS -->
+                <li class="nav-item dropdown" style="padding-right: 10px;"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rad/Sq. EM Conditions</a>
+                  <ul class="dropdown-menu">
+                    <li style="padding-left: 5px; color: red; text-decoration: none;">EPDSE ATH PN</li>
+                    <li><a class="dropdown-item" href="data sheets/epdse high accuracy.pdf" target="_blank">High Accuracy (mm)</a></li>
+                    <li><a class="dropdown-item" href="data sheets/epdse high efficiency.pdf" target="_blank">High Efficiency (mm)</a></li>
+                     <hr class="dropdown-divider">
+                    <li style="padding-left: 5px; color: red; text-decoration: none;">EPDRE</li>
+                    <li> <a class="dropdown-item" href="#" target="_blank">High Accuracy (mm)</a></li>
+                    <li> <a class="dropdown-item" href="#" target="_blank">High Efficiency (mm)</a> </li>
+                     <hr class="dropdown-divider">
+                    <li><a href="#" target="_blank" style="padding-left: 5px; color: red; text-decoration: none;">Item</a></li>                    
+                    <li><a class="dropdown-item" href="#" target="_blank">Item</a></li>
+                    <li><a class="dropdown-item" href="#" target="_blank">Item</a></li>
+                      <hr class="dropdown-divider">
+                    <li><a href="#" target="_blank" style="padding-left: 5px; color: red; text-decoration: none;">Item</a></li>
                     <li><a class="dropdown-item" href="#" target="_blank">Item</a></li>
                     <li><a class="dropdown-item" href="#" target="_blank">Item</a></li>
                     <li><a class="dropdown-item" href="#" target="_blank">Item</a></li>
                   </ul>
                 </li>
-                <!---nav link disabled
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="" alt="cnc list">Link</a>
-                </li>
-                -->
-                <!---nav link disabled target local excel spreadsheet
-               <li class="nav-item"><a class="nav-link" href="I:\Jobs\CNC PRG LIST\CNC Program Lists.xlsx">CNC Cut List</a></li>
-                -->
+
+                   <!---nav link disabled
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="" alt="cnc list">Link</a>
+                  </li>
+                  -->
+
+                  <!---nav link disabled target local excel spreadsheet
+                 <li class="nav-item"><a class="nav-link" href="I:\Jobs\CNC PRG LIST\CNC Program Lists.xlsx">CNC Cut List</a></li>
+                  -->
+
               </ul>
-              <!--form
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-              -->
+
+                <!--form disabled
+                <form class="d-flex mt-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                -->
+
             </div>
           </div>
         </div>
       </nav>
-
-     <h1 style="text-align: center; margin: 30px auto 15px auto; width:80%; padding-bottom: 15px;">What's up, Fuckers 🖕</h1>
+      
+     <h1 style="text-align: center; margin: 30px auto 15px auto; width:50%; padding-bottom: 15px;">Tooling for <em> Micro-Molding Solutions</em></h1>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     <div width=100% style="display: flex; justify-content: center;">
+       <img src="images/iso-micro.jpg" width=50%>
+     </div>
   </body>
 </html>
